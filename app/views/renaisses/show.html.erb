@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @renaiss %>
+
+<div>
+  <%= link_to "Edit this renaiss", edit_renaiss_path(@renaiss) %> |
+  <%= link_to "Back to renaisses", renaisses_path %>
+
+  <%= button_to "Destroy this renaiss", @renaiss, method: :delete %>
+</div>

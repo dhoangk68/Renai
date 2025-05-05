@@ -1,0 +1,72 @@
+<%= form_with(model: renaiss) do |form| %>
+  <% if renaiss.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(renaiss.errors.count, "error") %> prohibited this renaiss from being saved:</h2>
+
+      <ul>
+        <% renaiss.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :author, style: "display: block" %>
+    <%= form.textarea :author %>
+  </div>
+
+  <div>
+    <%= form.label :born_died, style: "display: block" %>
+    <%= form.textarea :born_died %>
+  </div>
+
+  <div>
+    <%= form.label :title, style: "display: block" %>
+    <%= form.textarea :title %>
+  </div>
+
+  <div>
+    <%= form.label :date, style: "display: block" %>
+    <%= form.textarea :date %>
+  </div>
+
+  <div>
+    <%= form.label :technique, style: "display: block" %>
+    <%= form.textarea :technique %>
+  </div>
+
+  <div>
+    <%= form.label :location, style: "display: block" %>
+    <%= form.textarea :location %>
+  </div>
+
+  <div>
+    <%= form.label :url, style: "display: block" %>
+    <%= form.textarea :url %>
+  </div>
+
+  <div>
+    <%= form.label :form, style: "display: block" %>
+    <%= form.textarea :form %>
+  </div>
+
+  <div>
+    <%= form.label :type, style: "display: block" %>
+    <%= form.textarea :type %>
+  </div>
+
+  <div>
+    <%= form.label :school, style: "display: block" %>
+    <%= form.textarea :school %>
+  </div>
+
+  <div>
+    <%= form.label :timeframe, style: "display: block" %>
+    <%= form.textarea :timeframe %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,27 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  author: MyText
+  born_died: MyText
+  title: MyText
+  date: MyText
+  technique: MyText
+  location: MyText
+  url: MyText
+  form: MyText
+  type: MyText
+  school: MyText
+  timeframe: MyText
+
+two:
+  author: MyText
+  born_died: MyText
+  title: MyText
+  date: MyText
+  technique: MyText
+  location: MyText
+  url: MyText
+  form: MyText
+  type: MyText
+  school: MyText
+  timeframe: MyText

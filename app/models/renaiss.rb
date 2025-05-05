@@ -1,0 +1,2 @@
+class Renaiss < ApplicationRecord
+end

@@ -1,0 +1,2 @@
+module RenaissesHelper
+end
