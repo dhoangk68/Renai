@@ -1,3 +1,5 @@
+import "@hotwired/turbo-rails";
+import "@hotwired/stimulus";
 import { Application } from "@hotwired/stimulus"
 
 const application = Application.start()
